@@ -5,31 +5,25 @@ title: Projects
 
 # Projects
 
-This page collects selected research, instrumentation, embedded systems, and systems-engineering projects. The common theme across these projects is building practical software and hardware tools for technical and research-oriented problems.
+This page collects selected research software, instrumentation, embedded systems, and systems-engineering projects. The common theme across these projects is building practical tools for technical and research-oriented problems.
 
 ---
 
-## Research and Scientific Software
+## Research Software
 
 ### Geant4 Detector Simulation Pipeline
 
 **Type:** Research software  
 **Role:** Developer and maintainer  
-**Repository:** https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline  
+**Repository:** [geant4-detector-simulation-pipeline](https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline)
 
-A Python-assisted Geant4 workflow for automated scintillation detector response simulations. The project integrates a Geant4 C++ backend with Python automation for macro generation, campaign execution, ROOT-file validation, spectrum generation, peak-count extraction, total-count extraction, plotting, and result organisation.
+A Python-assisted Geant4 workflow for automated scintillation detector response simulations. The project integrates a Geant4 C++ backend with Python automation for macro generation, campaign execution, ROOT-file validation, deposited-energy spectrum generation, count extraction, plotting, and result organisation.
 
-The pipeline supports:
-
-- Monoenergetic gamma simulations
-- Radioactive-decay simulations
-- Solid cylindrical detector geometry
-- Hollow annular detector geometry
-- Near-4π soccer-ball-style detector geometry
-- Scintillator materials including NaI, LaBr3, CsI, BGO, GGAG, and PbWO4
-- ROOT-based deposited-energy analysis using `EdepCrystal_keV`
+The pipeline supports monoenergetic gamma simulations, radioactive-decay simulations, multiple detector geometries, multiple scintillator materials, and ROOT-based deposited-energy analysis.
 
 This project forms the basis of my undergraduate thesis and my first-author IEEE Nuclear Science Symposium 2026 submission.
+
+**Skills:** Geant4, Python, C++, ROOT, Linux, Git, HPC, scientific computing
 
 ---
 
@@ -39,11 +33,13 @@ This project forms the basis of my undergraduate thesis and my first-author IEEE
 
 **Organisation:** Physics and Astronomy Club, IIT Roorkee  
 **Role:** Assisting contributor  
-**Type:** Student-led research instrumentation project  
+**Type:** Student-led research instrumentation project
 
 Contributed to Raspberry Pi-based embedded Linux and hardware-control support for a student-led radio telescope project under the Physics and Astronomy Club, IIT Roorkee.
 
-My contributions included:
+My contributions included developing and configuring parts of the embedded Linux environment, supporting networking functionality, and assisting with hardware-control integration for telescope operation.
+
+Key work included:
 
 - Assisting in the development of a custom Raspberry Pi image for the telescope system
 - Modifying Raspberry Pi boot configuration for reliable startup under lower-voltage portable power conditions
@@ -51,7 +47,7 @@ My contributions included:
 - Building support for an initially unsupported Wi-Fi module
 - Assisting with hardware-control integration for telescope operation
 
-This project gave me experience with embedded Linux, Raspberry Pi configuration, networking, hardware interfacing, and scientific instrumentation.
+**Skills:** Raspberry Pi, embedded Linux, networking, hardware interfacing, scientific instrumentation
 
 ---
 
@@ -60,21 +56,23 @@ This project gave me experience with embedded Linux, Raspberry Pi configuration,
 ### Raspberry Pi Home Server and Network Gateway
 
 **Type:** Independent systems engineering project  
-**Platform:** Raspberry Pi, Linux, Docker  
+**Platform:** Raspberry Pi, Linux, Docker
 
 Designed and maintain a Raspberry Pi-based home server for self-hosted services, network management, and automation.
 
-The system includes:
+The system includes Docker-based services for media hosting, home automation, file sharing, DNS filtering, reverse proxy access, and network gateway functionality.
 
-- Docker-based self-hosted services
+Main services and components include:
+
 - Jellyfin media server
 - Home Assistant automation
 - Samba/NFS file sharing
 - Reverse proxy services
 - DNS filtering and ad-blocking
-- Network gateway functionality
+- Network gateway configuration
+- Docker-based service deployment
 
-This project helped me build practical experience in Linux system administration, networking, Docker, service deployment, and home automation.
+**Skills:** Linux administration, Docker, networking, self-hosting, automation
 
 ---
 
@@ -84,16 +82,20 @@ This project helped me build practical experience in Linux system administration
 
 **Award:** First Prize, Syntax Error Hackathon, SDS Labs, IIT Roorkee  
 **Year:** 2022  
-**Repository:** https://github.com/ayushpriyadarshi-18/MyPi.git  
+**Repository:** [MyPi](https://github.com/ayushpriyadarshi-18/MyPi.git)
 
 Built a WiFi-based IP mouse system using Raspberry Pi during the Syntax Error Hackathon organised by SDS Labs, IIT Roorkee.
 
-The project involved:
+The project implemented a Raspberry Pi-based wireless control interface over a local network and was developed under hackathon time constraints.
+
+Key components included:
 
 - Raspberry Pi-based wireless mouse/control functionality
 - Network-based communication between the Raspberry Pi and host device
-- Rapid prototyping under hackathon time constraints
+- Rapid prototyping under time constraints
 - Embedded systems and networking-based problem solving
+
+**Skills:** Raspberry Pi, Python, networking, rapid prototyping, embedded systems
 
 ---
 
@@ -103,7 +105,7 @@ The project involved:
 
 **Type:** Independent embedded systems project  
 **Year:** 2020  
-**Platform:** ESP8266, relays, Wi-Fi, Alexa-compatible control  
+**Platform:** ESP8266, relays, Wi-Fi, Alexa-compatible control
 
 Built a Wi-Fi-enabled smart switch from scratch using an ESP8266 microcontroller and relay-based switching to control household lights and fans through Alexa voice commands.
 
@@ -113,7 +115,9 @@ The project involved:
 - ESP8266 programming
 - Wi-Fi-based device control
 - Alexa-compatible smart-home integration
-- Practical testing with lights and fan control
+- Practical testing with household lights and fan control
+
+**Skills:** ESP8266, Arduino-style programming, relay circuits, IoT, home automation
 
 ---
 
@@ -123,6 +127,8 @@ The project involved:
 
 **Type:** Class XII Computer Science project  
 **Year:** 2021  
-**Technologies:** Python, MySQL  
+**Technologies:** Python, MySQL
 
 Developed a terminal-based travel agency management system using Python and MySQL. The project included database design, basic authentication, reporting features, and command-line interaction.
+
+**Skills:** Python, MySQL, database design, command-line applications
