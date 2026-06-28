@@ -1,3 +1,7 @@
+[Home](index.md) | [Research](research.md) | [Software](software.md) | [Projects](projects.md) | [Publications](publications.md) | [CV](cv.md)
+
+---
+
 # Projects
 
 This page collects selected research, instrumentation, embedded systems, and systems-engineering projects. The common theme across these projects is building practical software and hardware tools for technical and research-oriented problems.

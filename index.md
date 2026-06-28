@@ -1,3 +1,7 @@
+[Home](index.md) | [Research](research.md) | [Software](software.md) | [Projects](projects.md) | [Publications](publications.md) | [CV](cv.md)
+
+---
+
 # Ayush Priyadarshi
 
 Integrated BS–MS Physics student at the Indian Institute of Technology Roorkee, interested in computational physics, scientific software development, detector simulations, and research instrumentation.

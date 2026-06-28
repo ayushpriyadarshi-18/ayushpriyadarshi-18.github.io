@@ -1,3 +1,7 @@
+[Home](index.md) | [Research](research.md) | [Software](software.md) | [Projects](projects.md) | [Publications](publications.md) | [CV](cv.md)
+
+---
+
 # Research
 
 My research interests lie at the intersection of computational physics, scientific software development, detector simulations, and research instrumentation. I am especially interested in building tools and workflows that make experimental and detector-based physics studies more reproducible, automated, and scalable.

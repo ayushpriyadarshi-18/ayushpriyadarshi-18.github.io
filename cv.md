@@ -1,3 +1,7 @@
+[Home](index.md) | [Research](research.md) | [Software](software.md) | [Projects](projects.md) | [Publications](publications.md) | [CV](cv.md)
+
+---
+
 # CV
 
 My academic CV is maintained as part of my research and PhD application portfolio.
