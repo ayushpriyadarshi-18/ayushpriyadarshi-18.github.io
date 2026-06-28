@@ -267,3 +267,46 @@ code {
     gap: 0.65rem;
   }
 }
+
+/* Final navigation polish */
+
+.site-header nav,
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.9rem;
+}
+
+.site-header nav a,
+.site-nav a {
+  display: inline-block;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--nav-text);
+  background: var(--card);
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.site-header nav a:hover,
+.site-nav a:hover {
+  color: var(--nav-hover);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  text-decoration: none;
+}
+
+.site-header {
+  padding-top: 1.9rem;
+  padding-bottom: 1.3rem;
+}
+
+.site-subtitle,
+.site-header p {
+  margin-bottom: 0;
+}
