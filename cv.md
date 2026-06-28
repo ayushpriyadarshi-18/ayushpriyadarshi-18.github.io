@@ -15,6 +15,8 @@ The latest version of my CV is available here:
 
 [Download CV](files/Ayush_Priyadarshi_CV.pdf)
 
+[Download Research and Software Portfolio](files/Ayush_Priyadarshi_Research_Portfolio.pdf)
+
 ---
 
 ## Profile Summary
