@@ -198,3 +198,72 @@ code {
     gap: 0.65rem;
   }
 }
+
+/* Layout correction for header and navigation */
+
+.site-header {
+  padding: 1.8rem max(1.25rem, calc((100vw - 980px) / 2)) 1.2rem;
+}
+
+.site-header .header-inner {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.site-header h1,
+.site-title {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.site-header h1 a,
+.site-title a {
+  color: var(--header-text);
+  text-decoration: none;
+}
+
+.site-subtitle,
+.site-header p {
+  margin: 0.35rem 0 1.15rem;
+  color: var(--muted);
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.site-nav a {
+  color: var(--nav-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  color: var(--nav-hover);
+  text-decoration: underline;
+}
+
+.content-card {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    padding: 1.4rem 1rem 1rem;
+  }
+
+  .site-header h1,
+  .site-title {
+    font-size: 1.6rem;
+  }
+
+  .site-nav {
+    gap: 0.65rem;
+  }
+}
