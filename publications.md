@@ -1,5 +1,6 @@
-[Home](index.md) | [Research](research.md) | [Software](software.md) | [Projects](projects.md) | [Publications](publications.md) | [CV](cv.md)
-
+---
+layout: default
+title: Publications
 ---
 
 # Publications
