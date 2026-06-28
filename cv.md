@@ -28,4 +28,4 @@ My current work focuses on automated Geant4–Python workflows for scintillation
 
 ## Download
 
-A public downloadable CV will be added here once the personal website is deployed.
+[Download my CV](files/Ayush_Priyadarshi_CV.pdf)
