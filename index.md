@@ -24,7 +24,7 @@ My undergraduate thesis develops a Python-assisted Geant4 workflow for automated
 - CSV/table generation
 - Reproducible output organisation
 
-This work forms the basis of my undergraduate thesis and a first-author conference paper submitted to IEEE Nuclear Science Symposium 2026.
+This work forms the basis of my undergraduate thesis and a first-author conference paper accepted for poster presentation at IEEE Nuclear Science Symposium 2026.
 
 ---
 
@@ -57,8 +57,8 @@ Designed and maintain a Raspberry Pi-based home server for self-hosted services,
 
 **A. Priyadarshi**, G. A. Kumar, K. Madhan, and V. Ranga,  
 “A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors,”  
-submitted to IEEE Nuclear Science Symposium, 2026.  
-Status: Under review.
+accepted for poster presentation at IEEE Nuclear Science Symposium, 2026.  
+Status: Accepted for poster presentation.
 
 ---
 
