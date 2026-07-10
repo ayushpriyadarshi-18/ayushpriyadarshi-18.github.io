@@ -15,7 +15,7 @@ This page lists my research publications, conference submissions, and software-r
 
 **Authors:** Ayush Priyadarshi, G. Anil Kumar, Kavish Madhan, and Virender Ranga  
 **Venue:** IEEE Nuclear Science Symposium 2026  
-**Status:** Submitted; under review  
+**Status:** Accepted for poster presentation
 
 This paper presents a compact Geant4–Python simulation-analysis tool for reproducible scintillation detector response studies. The tool connects a configurable Geant4 C++ simulation backend with Python automation for macro generation, simulation execution, ROOT-file validation, deposited-energy spectrum generation, count extraction, and summary table generation.
 
