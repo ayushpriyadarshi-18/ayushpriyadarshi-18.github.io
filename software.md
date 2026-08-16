@@ -83,7 +83,7 @@ A typical simulation campaign follows this structure:
 
 ## Research Use
 
-This software forms the basis of my undergraduate thesis:
+This software forms the basis of my master's thesis:
 
 *A Python-Assisted Geant4 Workflow for Automated Scintillation Detector Response Simulations*
 

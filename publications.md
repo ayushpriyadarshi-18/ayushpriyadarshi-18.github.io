@@ -47,7 +47,7 @@ The software supports:
 - CSV/table generation
 - Geometry-dependent detector response studies
 
-This repository forms the software basis of my undergraduate thesis and first-author IEEE NSS 2026 poster presentation.
+This repository forms the software basis of my master's thesis and first-author IEEE NSS 2026 poster presentation.
 
 ---
 
@@ -57,7 +57,7 @@ This repository forms the software basis of my undergraduate thesis and first-au
 
 **Degree:** Integrated BS–MS Physics  
 **Institution:** Indian Institute of Technology Roorkee  
-**Supervisor:** Dr. Anil Kumar Gourishetty  
+**Supervisor:** Prof. Anil Kumar Gourishetty<br>
 **Period:** 2025–2026  
 
-My undergraduate thesis developed an automated Geant4–Python workflow for campaign-level scintillation detector response studies. The work focused on reproducibility, traceability, simulation automation, ROOT-based analysis, and detector-response comparison across materials and geometries.
+My master's thesis developed an automated Geant4–Python workflow for campaign-level scintillation detector response studies. The work focused on reproducibility, traceability, simulation automation, ROOT-based analysis, and detector-response comparison across materials and geometries.

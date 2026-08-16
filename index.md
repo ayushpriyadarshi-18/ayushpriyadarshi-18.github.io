@@ -21,9 +21,9 @@ The implementation was checked by reproducing published reference factors within
 
 [Read about the research](research.md)
 
-### Undergraduate Thesis and Research Platform
+### Master's Thesis and Continuing Research Platform
 
-My undergraduate thesis developed a Python-assisted Geant4 workflow for automated scintillation detector response simulations. The workflow integrates:
+My master's thesis developed a Python-assisted Geant4 workflow for automated scintillation detector response simulations. The workflow integrates:
 
 - Geant4 C++ detector simulation backend
 - Python-based macro generation
@@ -34,7 +34,7 @@ My undergraduate thesis developed a Python-assisted Geant4 workflow for automate
 - CSV/table generation
 - Reproducible output organisation
 
-This work forms the software basis of my undergraduate thesis, a first-author conference paper accepted for poster presentation at IEEE Nuclear Science Symposium 2026, and my current detector-physics research.
+This work forms the software basis of my master's thesis, a first-author conference paper accepted for poster presentation at IEEE Nuclear Science Symposium 2026, and my current detector-physics research.
 
 ---
 

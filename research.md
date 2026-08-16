@@ -11,7 +11,7 @@ My research interests lie at the intersection of computational physics, scientif
 
 ## Research Focus
 
-My current work uses Geant4-based detector simulation, custom radioactive-source modelling, and ROOT analysis to study coincidence summing in beta-plus emitters. The research builds on the automated simulation platform developed during my undergraduate thesis.
+My current work uses Geant4-based detector simulation, custom radioactive-source modelling, and ROOT analysis to study coincidence summing in beta-plus emitters. The research builds on the automated simulation platform developed during my master's thesis.
 
 The central progression of my work is: **build a reusable simulation platform → validate it against published calculations and measurements → apply it to an active detector-physics problem.**
 
@@ -43,15 +43,15 @@ The detector-specific factor values, detailed correction results, equations, cal
 
 ---
 
-## Undergraduate Thesis
+## Master's Thesis Research and Software Development
 
 ### A Python-Assisted Geant4 Workflow for Automated Scintillation Detector Response Simulations
 
 **Institution:** Department of Physics, Indian Institute of Technology Roorkee<br>
 **Supervisor:** Prof. Anil Kumar Gourishetty<br>
-**Period:** 2025–2026
+**Period:** 2025–Present
 
-My undergraduate thesis developed an automated Geant4–Python workflow for campaign-level scintillation detector response studies. The workflow integrates a configurable Geant4 C++ backend with Python automation for macro generation, batch execution, ROOT output validation, deposited-energy spectrum generation, count extraction, plotting, and table generation.
+My master's thesis developed an automated Geant4–Python workflow for campaign-level scintillation detector response studies. The software remains actively maintained, extended, and used in my current research. The workflow integrates a configurable Geant4 C++ backend with Python automation for macro generation, batch execution, ROOT output validation, deposited-energy spectrum generation, count extraction, plotting, and table generation.
 
 The framework supports:
 
@@ -112,7 +112,7 @@ As part of workflow validation, high-statistics simulations were executed on the
 
 This work has resulted in:
 
-- Undergraduate thesis:
+- Master's thesis:
   *A Python-Assisted Geant4 Workflow for Automated Scintillation Detector Response Simulations*
 
 - Research software repository:
