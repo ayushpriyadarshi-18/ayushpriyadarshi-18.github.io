@@ -49,7 +49,7 @@ My undergraduate thesis is titled:
 
 *A Python-Assisted Geant4 Workflow for Automated Scintillation Detector Response Simulations*
 
-This work also forms the basis of my first-author conference paper submitted to IEEE Nuclear Science Symposium 2026:
+This work also forms the basis of my first-author conference paper accepted for poster presentation at IEEE Nuclear Science Symposium 2026:
 
 *A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors*
 

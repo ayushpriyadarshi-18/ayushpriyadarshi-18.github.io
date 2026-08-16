@@ -92,9 +92,9 @@ This work has resulted in:
 - Research software repository:  
   [Geant4 Detector Simulation Pipeline](https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline)
 
-- First-author conference submission:  
+- First-author conference presentation:  
   *A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors*  
-  Submitted to IEEE Nuclear Science Symposium 2026.
+  Accepted for poster presentation at IEEE Nuclear Science Symposium 2026.
 
 ---
 

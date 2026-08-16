@@ -87,7 +87,7 @@ This software forms the basis of my undergraduate thesis:
 
 *A Python-Assisted Geant4 Workflow for Automated Scintillation Detector Response Simulations*
 
-It is also the software basis for my first-author conference paper submitted to IEEE Nuclear Science Symposium 2026:
+It is also the software basis for my first-author conference paper accepted for poster presentation at IEEE Nuclear Science Symposium 2026:
 
 *A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors*
 
