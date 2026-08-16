@@ -7,13 +7,23 @@ title: Home
 
 I am an Integrated BS–MS Physics student at the Indian Institute of Technology Roorkee, working at the intersection of computational physics, scientific software development, detector simulations, and research instrumentation.
 
-My current work focuses on building automated Geant4–Python workflows for scintillation detector response simulations. I am especially interested in research software that connects Monte Carlo simulations, Python automation, ROOT-based analysis, spectrum generation, and reproducible data organisation.
+My current research applies and extends a Geant4–Python detector-simulation platform to coincidence-summing corrections for beta-plus emitters in a near-4π NaI(Tl) detector array. I work across Monte Carlo simulation, custom radioactive-source modelling, ROOT-based analysis, gamma-ray spectroscopy, and reproducible scientific software.
 
 ---
 
 ## Research Focus
 
-My undergraduate thesis develops a Python-assisted Geant4 workflow for automated scintillation detector response simulations. The workflow integrates:
+### Coincidence-Summing Corrections for β⁺ Emitters
+
+I am working with Prof. Anil Kumar Gourishetty on geometry-dependent corrections for coincidence summing in Na-22, O-14, and Sc-44. I extended my thesis software to model custom decay sources, reconstruct a published eight-block reference detector, run high-statistics campaigns, and calculate the angular factors required for a near-4π soccer-ball NaI(Tl) detector array.
+
+The implementation was checked by reproducing published reference factors within 2.3%, and the soccer-ball detector model was benchmarked against published experimental measurements for the physical TIFR array. A peer-reviewed journal manuscript is planned, with confirmed second authorship.
+
+[Read about the research](research.md)
+
+### Undergraduate Thesis and Research Platform
+
+My undergraduate thesis developed a Python-assisted Geant4 workflow for automated scintillation detector response simulations. The workflow integrates:
 
 - Geant4 C++ detector simulation backend
 - Python-based macro generation
@@ -24,7 +34,7 @@ My undergraduate thesis develops a Python-assisted Geant4 workflow for automated
 - CSV/table generation
 - Reproducible output organisation
 
-This work forms the basis of my undergraduate thesis and a first-author conference paper accepted for poster presentation at IEEE Nuclear Science Symposium 2026.
+This work forms the software basis of my undergraduate thesis, a first-author conference paper accepted for poster presentation at IEEE Nuclear Science Symposium 2026, and my current detector-physics research.
 
 ---
 

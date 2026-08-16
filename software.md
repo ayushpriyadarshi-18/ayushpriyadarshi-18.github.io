@@ -16,7 +16,7 @@ My software work focuses on building reproducible tools for detector simulation,
 
 The Geant4 Detector Simulation Pipeline is a Python-assisted Geant4 workflow for automated scintillation detector response simulations. It was developed to reduce manual effort in repeated detector-response studies and to make simulation campaigns more reproducible, traceable, and easier to extend.
 
-The software connects a configurable Geant4 C++ backend with Python tools for simulation setup, campaign execution, ROOT-file validation, deposited-energy spectrum generation, count extraction, plotting, and output organisation.
+The software connects a configurable Geant4 C++ backend with Python tools for simulation setup, campaign execution, ROOT-file validation, deposited-energy spectrum generation, count extraction, plotting, and output organisation. It began as my undergraduate-thesis platform and now serves as the computational foundation of an ongoing beta-plus-emitter coincidence-summing study.
 
 ---
 
@@ -91,7 +91,9 @@ It is also the software basis for my first-author conference paper accepted for 
 
 *A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors*
 
-The pipeline is actively maintained and used as part of ongoing detector simulation research.
+After the thesis, I extended a private working copy of the platform to reconstruct the published Byun eight-block detector, implement custom Na-22, O-14, and Sc-44 source models from nuclear decay schemes, execute 10^8-event campaigns, and calculate geometry-dependent angular factors for a near-4π NaI(Tl) soccer-ball array.
+
+These unpublished extensions and research outputs are intentionally excluded from the public repository pending manuscript development and supervisor approval. The public repository remains the stable, reproducible version of the thesis software.
 
 ---
 

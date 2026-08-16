@@ -11,9 +11,35 @@ My research interests lie at the intersection of computational physics, scientif
 
 ## Research Focus
 
-My current work focuses on Geant4-based scintillation detector response simulations. The goal is to reduce the manual effort involved in repeated detector-response studies by connecting simulation setup, execution, ROOT analysis, spectrum generation, and count extraction into a structured workflow.
+My current work uses Geant4-based detector simulation, custom radioactive-source modelling, and ROOT analysis to study coincidence summing in beta-plus emitters. The research builds on the automated simulation platform developed during my undergraduate thesis.
 
-This work is centered on the development of a Python-assisted Geant4 workflow for automated scintillation detector simulations.
+The central progression of my work is: **build a reusable simulation platform → validate it against published calculations and measurements → apply it to an active detector-physics problem.**
+
+---
+
+## Current Research
+
+### Coincidence-Summing Correction for β⁺ Emitters in a Near-4π NaI(Tl) Detector Array
+
+**Institution:** Department of Physics, Indian Institute of Technology Roorkee<br>
+**Supervisor:** Prof. Anil Kumar Gourishetty<br>
+**Period:** July 2026–Present<br>
+**Status:** Ongoing research; peer-reviewed journal manuscript planned with confirmed second authorship
+
+When multiple photons from the same decay deposit energy within a detector's resolving interval, counts can be lost from individual photopeaks and transferred into sum peaks. In beta-plus emitters, the two back-to-back 511 keV annihilation photons introduce an additional geometry-dependent angular relationship that must be treated carefully in a high-efficiency detector array.
+
+Prof. Gourishetty is developing the coincidence-summing correction formalism. My contribution is the computational work required to apply and validate it:
+
+- Extended my Geant4–Python platform with new detector, source, campaign, and analysis capabilities.
+- Reconstructed the published eight-block near-4π NaI(Tl) reference detector of Byun et al.
+- Reproduced its published angular factors within a maximum relative difference of 2.3%.
+- Implemented custom Geant4 sources from nuclear decay schemes, including probabilistic gamma emission and back-to-back 511 keV annihilation photons.
+- Completed 10^8-event campaigns for Na-22, O-14, and Sc-44.
+- Calculated detector-specific angular factors for the 32-element TIFR soccer-ball NaI(Tl) array.
+- Benchmarked the detector model against published experimental measurements for the physical TIFR array, with simulated efficiencies consistent within 5%.
+- Validated the correction procedure using independent coincidence-free monoenergetic simulations.
+
+The detector-specific factor values, detailed correction results, equations, calculation tables, plots, and research code remain private until approved for public release by the supervisor.
 
 ---
 
@@ -21,9 +47,9 @@ This work is centered on the development of a Python-assisted Geant4 workflow fo
 
 ### A Python-Assisted Geant4 Workflow for Automated Scintillation Detector Response Simulations
 
-**Institution:** Department of Physics, Indian Institute of Technology Roorkee  
-**Supervisor:** Dr. Anil Kumar Gourishetty  
-**Period:** 2025–2026  
+**Institution:** Department of Physics, Indian Institute of Technology Roorkee<br>
+**Supervisor:** Prof. Anil Kumar Gourishetty<br>
+**Period:** 2025–2026
 
 My undergraduate thesis developed an automated Geant4–Python workflow for campaign-level scintillation detector response studies. The workflow integrates a configurable Geant4 C++ backend with Python automation for macro generation, batch execution, ROOT output validation, deposited-energy spectrum generation, count extraction, plotting, and table generation.
 
@@ -78,7 +104,7 @@ This approach makes the simulation-analysis chain more traceable and easier to e
 
 ## High-Performance Computing
 
-As part of workflow validation, high-statistics simulations were executed on the PARAMGanga high-performance computing facility at IIT Roorkee. These included Cs-137 simulations with up to 10^8 events, demonstrating that the same workflow can be used for both lightweight reference examples and larger simulation campaigns.
+As part of workflow validation, high-statistics simulations were executed on the PARAMGanga high-performance computing facility at IIT Roorkee. These included simulations with up to 10^8 events, demonstrating that the same workflow can be used for both lightweight reference examples and larger research campaigns.
 
 ---
 
@@ -86,14 +112,14 @@ As part of workflow validation, high-statistics simulations were executed on the
 
 This work has resulted in:
 
-- Undergraduate thesis:  
+- Undergraduate thesis:
   *A Python-Assisted Geant4 Workflow for Automated Scintillation Detector Response Simulations*
 
-- Research software repository:  
+- Research software repository:
   [Geant4 Detector Simulation Pipeline](https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline)
 
-- First-author conference presentation:  
-  *A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors*  
+- First-author conference presentation:
+  *A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors*<br>
   Accepted for poster presentation at IEEE Nuclear Science Symposium 2026.
 
 ---

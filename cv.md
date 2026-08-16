@@ -21,9 +21,9 @@ The latest version of my CV is available here:
 
 ## Profile Summary
 
-I am an Integrated BS–MS Physics student at the Indian Institute of Technology Roorkee with experience in computational detector physics, scientific software development, and Geant4-based Monte Carlo simulations.
+I am an Integrated BS–MS Physics student at the Indian Institute of Technology Roorkee with experience in computational detector physics, scientific software development, gamma-ray spectroscopy, and Geant4-based Monte Carlo simulations.
 
-My current work focuses on automated Geant4–Python workflows for scintillation detector response simulations, including macro generation, campaign execution, ROOT-based analysis, spectrum generation, and count-table extraction.
+My current work applies and extends a Geant4–Python platform to coincidence-summing corrections for beta-plus emitters in a near-4π NaI(Tl) detector array, including custom radioactive-source modelling, high-statistics campaigns, and geometry-dependent angular-factor calculations.
 
 ---
 
@@ -36,6 +36,8 @@ My research interests include:
 - Monte Carlo simulations
 - Geant4
 - Detector-response modelling
+- Coincidence-summing analysis
+- Radioactive-source modelling
 - Radiation detection
 - Gamma spectroscopy
 - High-performance computing

@@ -21,9 +21,11 @@ A Python-assisted Geant4 workflow for automated scintillation detector response 
 
 The pipeline supports monoenergetic gamma simulations, radioactive-decay simulations, multiple detector geometries, multiple scintillator materials, and ROOT-based deposited-energy analysis.
 
-This project forms the basis of my undergraduate thesis and my first-author poster presentation at IEEE Nuclear Science Symposium 2026.
+This project forms the basis of my undergraduate thesis and my first-author poster presentation at IEEE Nuclear Science Symposium 2026. A privately extended working copy now supports my research on coincidence-summing corrections for Na-22, O-14, and Sc-44 in a near-4π NaI(Tl) soccer-ball detector array, including custom source modelling and 10^8-event simulation campaigns.
 
-**Skills:** Geant4, Python, C++, ROOT, Linux, Git, HPC, scientific computing
+The unpublished research extensions and outputs are not included in the public repository until approved for public release by the supervisor.
+
+**Skills:** Geant4, Python, C++, ROOT, Linux, Git, HPC, scientific computing, radioactive-source modelling, gamma spectroscopy
 
 ---
 
