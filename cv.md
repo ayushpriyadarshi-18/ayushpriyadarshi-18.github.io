@@ -47,7 +47,7 @@ My research interests include:
 
 ## Key Research Output
 
-My undergraduate thesis is titled:
+My master's thesis is titled:
 
 *A Python-Assisted Geant4 Workflow for Automated Scintillation Detector Response Simulations*
 
