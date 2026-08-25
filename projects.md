@@ -11,6 +11,18 @@ This page collects selected research software, instrumentation, embedded systems
 
 ## Research Software
 
+### Angular Factors Calculator
+
+**Type:** Research software and manuscript reproducibility package<br>
+**Role:** Lead developer and maintainer; first and corresponding author<br>
+**Repository:** [angular-factors-calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
+
+A Python package and command-line tool for calculating angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector. I developed the mathematical implementation, ROOT analysis, coefficient-based calculation, numerical cross-checks, structured outputs, tests, documentation, and citation metadata.
+
+The package reproduces the results of my conference-paper manuscript prepared for submission to the DAE Symposium on Nuclear Physics 2026. It is the public annular-method stage that precedes our separate ongoing application to the near-4π soccer-ball detector.
+
+**Skills:** Python, ROOT, Geant4 analysis, numerical integration, detector physics, gamma spectroscopy, scientific software testing, reproducible research
+
 ### Geant4 Detector Simulation Pipeline
 
 **Type:** Research software  

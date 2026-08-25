@@ -9,6 +9,22 @@ This page lists my research publications, conference presentations, and software
 
 ---
 
+## Manuscripts Prepared for Submission
+
+### Angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector
+
+**Authors:** Ayush Priyadarshi, Rahul Chauhan, Asit Srivastava, and G. Anil Kumar<br>
+**Intended venue:** DAE Symposium on Nuclear Physics 2026<br>
+**Status:** Conference-paper manuscript prepared for submission<br>
+**My role:** First and corresponding author
+
+This manuscript presents a full-interval, angle-resolved calculation of annihilation-photon correlation factors for an annular NaI(Tl) detector. I corrected and extended an earlier unpublished mathematical treatment, completed the Geant4 analysis, implemented and validated the numerical calculation, prepared the figures, developed the public software package, and wrote the complete manuscript.
+
+**Reproducibility package:**<br>
+[Angular Factors Calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
+
+---
+
 ## Conference Presentations
 
 ### A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors
@@ -27,6 +43,14 @@ The workflow is demonstrated using Cs-137 simulations across solid cylindrical, 
 ---
 
 ## Research Software
+
+### Angular Factors Calculator
+
+**Developer:** Ayush Priyadarshi<br>
+**Repository:** [angular-factors-calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)<br>
+**Year:** 2026
+
+A public Python package, command-line tool, and reproducibility record for the annular-detector angular-factor manuscript. It supports ROOT analysis, coefficient-based calculation, independent numerical cross-checks, structured JSON/CSV outputs, regression tests, continuous integration, and citation metadata.
 
 ### Geant4 Detector Simulation Pipeline
 

@@ -7,11 +7,19 @@ title: Home
 
 I am an Integrated BS–MS Physics student at the Indian Institute of Technology Roorkee, working at the intersection of computational physics, scientific software development, detector simulations, and research instrumentation.
 
-My current research applies and extends a Geant4–Python detector-simulation platform to coincidence-summing corrections for beta-plus emitters in a near-4π NaI(Tl) detector array. I work across Monte Carlo simulation, custom radioactive-source modelling, ROOT-based analysis, gamma-ray spectroscopy, and reproducible scientific software.
+My current research develops angle-resolved annihilation-photon correlation factors for coincidence-summing corrections in high-efficiency NaI(Tl) detectors. I work across analytical modelling, Geant4 simulation, ROOT-based analysis, gamma-ray spectroscopy, and reproducible scientific software.
 
 ---
 
 ## Research Focus
+
+### Annular-Detector Angular Factors
+
+I led an annular NaI(Tl) detector study that establishes the angular factors required before applying our correction formalism to a more complex near-4π array. I corrected and extended an earlier unpublished derivation, performed the angle-resolved Geant4 analysis, developed the public reproducibility package, validated the calculation, prepared the figures, and wrote the complete manuscript.
+
+The conference-paper manuscript is prepared for submission to the DAE Symposium on Nuclear Physics 2026. I am its first and corresponding author.
+
+[View the reproducibility package](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
 
 ### Coincidence-Summing Corrections for β⁺ Emitters
 
@@ -40,6 +48,12 @@ This work forms the software basis of my master's thesis, a first-author confere
 
 ## Featured Software
 
+### Angular Factors Calculator
+
+A tested Python package and command-line tool for calculating annular-detector annihilation-photon correlation factors from angle-resolved ROOT data or supplied mass coefficients.
+
+[View repository](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
+
 ### Geant4 Detector Simulation Pipeline
 
 A Python-assisted Geant4 simulation pipeline for automated scintillation detector response studies.
@@ -64,6 +78,11 @@ Designed and maintain a Raspberry Pi-based home server for self-hosted services,
 ---
 
 ## Publications
+
+**A. Priyadarshi**, R. Chauhan, A. Srivastava, and G. Anil Kumar,<br>
+“Angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector,”<br>
+conference-paper manuscript prepared for submission to the DAE Symposium on Nuclear Physics, 2026.<br>
+Role: First and corresponding author.
 
 **A. Priyadarshi**, G. A. Kumar, K. Madhan, and V. Ranga,  
 “A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors,”  

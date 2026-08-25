@@ -23,7 +23,7 @@ The latest version of my CV is available here:
 
 I am an Integrated BS–MS Physics student at the Indian Institute of Technology Roorkee with experience in computational detector physics, scientific software development, gamma-ray spectroscopy, and Geant4-based Monte Carlo simulations.
 
-My current work applies and extends a Geant4–Python platform to coincidence-summing corrections for beta-plus emitters in a near-4π NaI(Tl) detector array, including custom radioactive-source modelling, high-statistics campaigns, and geometry-dependent angular-factor calculations.
+My current work develops angle-resolved annihilation-photon correlation factors for coincidence-summing corrections in high-efficiency NaI(Tl) detectors. I am first and corresponding author of an annular-detector manuscript prepared for conference submission and developer of its public reproducibility package; a separate soccer-ball detector study and journal paper are the next stage.
 
 ---
 
@@ -46,6 +46,12 @@ My research interests include:
 ---
 
 ## Key Research Output
+
+I am first and corresponding author of a conference-paper manuscript prepared for submission to the DAE Symposium on Nuclear Physics 2026:
+
+*Angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector*
+
+Its public reproducibility package is the [Angular Factors Calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator).
 
 My master's thesis is titled:
 

@@ -9,6 +9,28 @@ My software work focuses on building reproducible tools for detector simulation,
 
 ---
 
+## Angular Factors Calculator
+
+**Role:** Lead Developer and Maintainer<br>
+**Repository:** [angular-factors-calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
+
+Angular Factors Calculator is the public reproducibility package for my first- and corresponding-author annular-detector manuscript. It calculates annihilation-photon correlation factors from angle-resolved Geant4 ROOT data or supplied NaI(Tl) mass coefficients.
+
+The package provides:
+
+- ROOT-file inspection and angle-resolved histogram analysis
+- Detector-geometry and solid-angle calculations
+- Total-interaction and full-energy-peak response fitting
+- Coefficient-based factor calculation
+- Independent quadrature and midpoint numerical methods
+- JSON and CSV outputs with calculation provenance
+- Regression tests, continuous integration, and citation metadata
+- A documented `angularcorr` command-line interface
+
+For the documented ideal annular geometry, the package reproduces the manuscript's full-precision factors wL1 = 1.260741, wL2 = 1.253825, and wG = 1.269388.
+
+---
+
 ## Geant4 Detector Simulation Pipeline
 
 **Role:** Developer and Maintainer  
@@ -16,7 +38,7 @@ My software work focuses on building reproducible tools for detector simulation,
 
 The Geant4 Detector Simulation Pipeline is a Python-assisted Geant4 workflow for automated scintillation detector response simulations. It was developed to reduce manual effort in repeated detector-response studies and to make simulation campaigns more reproducible, traceable, and easier to extend.
 
-The software connects a configurable Geant4 C++ backend with Python tools for simulation setup, campaign execution, ROOT-file validation, deposited-energy spectrum generation, count extraction, plotting, and output organisation. It began as my undergraduate-thesis platform and now serves as the computational foundation of an ongoing beta-plus-emitter coincidence-summing study.
+The software connects a configurable Geant4 C++ backend with Python tools for simulation setup, campaign execution, ROOT-file validation, deposited-energy spectrum generation, count extraction, plotting, and output organisation. It began as my master's-thesis platform and now serves as the computational foundation of an ongoing beta-plus-emitter coincidence-summing study.
 
 ---
 
@@ -100,5 +122,6 @@ These unpublished extensions and research outputs are intentionally excluded fro
 ## Links
 
 - [GitHub Repository](https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline)
+- [Angular Factors Calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
 - [Research Page](research.md)
 - [Publications Page](publications.md)

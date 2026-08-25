@@ -11,13 +11,37 @@ My research interests lie at the intersection of computational physics, scientif
 
 ## Research Focus
 
-My current work uses Geant4-based detector simulation, custom radioactive-source modelling, and ROOT analysis to study coincidence summing in beta-plus emitters. The research builds on the automated simulation platform developed during my master's thesis.
+My current work combines analytical modelling, Geant4-based detector simulation, custom radioactive-source modelling, and ROOT analysis to study coincidence summing in beta-plus emitters. The research builds on the automated simulation platform developed during my master's thesis.
 
-The central progression of my work is: **build a reusable simulation platform → validate it against published calculations and measurements → apply it to an active detector-physics problem.**
+The central progression of my work is: **build a reusable simulation platform → establish and publicly reproduce the angular-factor method for an annular detector → apply it to the physical near-4π soccer-ball array.**
 
 ---
 
 ## Current Research
+
+### Angle-Resolved Annihilation-Photon Correlation Factors for an Annular NaI(Tl) Detector
+
+**Institution:** Department of Physics, Indian Institute of Technology Roorkee<br>
+**Supervisor:** Prof. Anil Kumar Gourishetty<br>
+**Role:** First and corresponding author; lead derivation, simulation analysis, software, validation, figures, and manuscript writing<br>
+**Status:** Conference-paper manuscript prepared for submission to the DAE Symposium on Nuclear Physics 2026
+
+This public study establishes the angular factors needed to apply the coincidence-summing correction formalism to an annular NaI(Tl) detector. It was a necessary methodological step before extending the same approach to the more complex soccer-ball detector.
+
+My contributions were:
+
+- Corrected and extended an earlier unpublished mathematical treatment into a full-interval, angle-resolved formulation.
+- Performed the analysis of one million isotropic 511-keV Geant4 11.3.2 events in 0.25° angular bins.
+- Implemented total-interaction and effective full-energy response weighting using documented NaI(Tl) attenuation coefficients.
+- Calculated a solid-angle coverage of 10.456 sr, or 83.205% of 4π.
+- Obtained the full-precision factors wL1 = 1.260741, wL2 = 1.253825, and wG = 1.269388 for the stated ideal annular geometry.
+- Cross-checked the calculation with independent numerical methods, reference coefficient data, and experimental validation supplied by the collaboration.
+- Developed and released the complete Python reproducibility package.
+- Prepared all figures and wrote the complete first-author manuscript.
+
+**Public software and reproducibility package:** [Angular Factors Calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
+
+The public annular results are distinct from the detector-specific soccer-ball results below, which remain private pending manuscript development and supervisor approval.
 
 ### Coincidence-Summing Correction for β⁺ Emitters in a Near-4π NaI(Tl) Detector Array
 
@@ -117,6 +141,12 @@ This work has resulted in:
 
 - Research software repository:
   [Geant4 Detector Simulation Pipeline](https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline)
+
+- First- and corresponding-author conference manuscript prepared for submission:
+  *Angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector*
+
+- Public reproducibility package:
+  [Angular Factors Calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
 
 - First-author conference presentation:
   *A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors*<br>
