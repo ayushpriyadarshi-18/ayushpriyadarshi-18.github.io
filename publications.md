@@ -9,13 +9,13 @@ This page lists my research publications, conference presentations, and software
 
 ---
 
-## Manuscripts Prepared for Submission
+## Submitted Conference Papers
 
 ### Angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector
 
 **Authors:** Ayush Priyadarshi, Rahul Chauhan, Asit Srivastava, and G. Anil Kumar<br>
 **Intended venue:** DAE Symposium on Nuclear Physics 2026<br>
-**Status:** Conference-paper manuscript prepared for submission<br>
+**Status:** Submitted on 8 September 2026<br>
 **My role:** First and corresponding author
 
 This manuscript presents a full-interval, angle-resolved calculation of annihilation-photon correlation factors for an annular NaI(Tl) detector. I corrected and extended an earlier unpublished mathematical treatment, completed the Geant4 analysis, implemented and validated the numerical calculation, prepared the figures, developed the public software package, and wrote the complete manuscript.

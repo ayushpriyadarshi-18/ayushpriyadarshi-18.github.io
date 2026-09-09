@@ -17,7 +17,7 @@ My current research develops angle-resolved annihilation-photon correlation fact
 
 I led an annular NaI(Tl) detector study that establishes the angular factors required before applying our correction formalism to a more complex near-4π array. I corrected and extended an earlier unpublished derivation, performed the angle-resolved Geant4 analysis, developed the public reproducibility package, validated the calculation, prepared the figures, and wrote the complete manuscript.
 
-The conference-paper manuscript is prepared for submission to the DAE Symposium on Nuclear Physics 2026. I am its first and corresponding author.
+The conference paper was submitted to the DAE Symposium on Nuclear Physics 2026 on 8 September 2026. I am its first and corresponding author.
 
 [View the reproducibility package](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
 
@@ -81,7 +81,7 @@ Designed and maintain a Raspberry Pi-based home server for self-hosted services,
 
 **A. Priyadarshi**, R. Chauhan, A. Srivastava, and G. Anil Kumar,<br>
 “Angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector,”<br>
-conference-paper manuscript prepared for submission to the DAE Symposium on Nuclear Physics, 2026.<br>
+submitted to the DAE Symposium on Nuclear Physics, 2026. Submission date: 8 September 2026.<br>
 Role: First and corresponding author.
 
 **A. Priyadarshi**, G. A. Kumar, K. Madhan, and V. Ranga,  

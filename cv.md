@@ -23,7 +23,7 @@ The latest version of my CV is available here:
 
 I am an Integrated BS–MS Physics student at the Indian Institute of Technology Roorkee with experience in computational detector physics, scientific software development, gamma-ray spectroscopy, and Geant4-based Monte Carlo simulations.
 
-My current work develops angle-resolved annihilation-photon correlation factors for coincidence-summing corrections in high-efficiency NaI(Tl) detectors. I am first and corresponding author of an annular-detector manuscript prepared for conference submission and developer of its public reproducibility package; a separate soccer-ball detector study and journal paper are the next stage.
+My current work develops angle-resolved annihilation-photon correlation factors for coincidence-summing corrections in high-efficiency NaI(Tl) detectors. I am first and corresponding author of an annular-detector paper submitted to DAE SNP 2026 on 8 September 2026 and developer of its public reproducibility package; a separate soccer-ball detector study and journal paper are the next stage.
 
 ---
 
@@ -47,7 +47,7 @@ My research interests include:
 
 ## Key Research Output
 
-I am first and corresponding author of a conference-paper manuscript prepared for submission to the DAE Symposium on Nuclear Physics 2026:
+I am first and corresponding author of a conference paper submitted to the DAE Symposium on Nuclear Physics 2026 on 8 September 2026:
 
 *Angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector*
 

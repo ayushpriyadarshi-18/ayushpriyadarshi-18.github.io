@@ -24,7 +24,7 @@ The central progression of my work is: **build a reusable simulation platform â†
 **Institution:** Department of Physics, Indian Institute of Technology Roorkee<br>
 **Supervisor:** Prof. Anil Kumar Gourishetty<br>
 **Role:** First and corresponding author; lead derivation, simulation analysis, software, validation, figures, and manuscript writing<br>
-**Status:** Conference-paper manuscript prepared for submission to the DAE Symposium on Nuclear Physics 2026
+**Status:** Submitted to the DAE Symposium on Nuclear Physics 2026 on 8 September 2026
 
 This public study establishes the angular factors needed to apply the coincidence-summing correction formalism to an annular NaI(Tl) detector. It was a necessary methodological step before extending the same approach to the more complex soccer-ball detector.
 
@@ -142,7 +142,7 @@ This work has resulted in:
 - Research software repository:
   [Geant4 Detector Simulation Pipeline](https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline)
 
-- First- and corresponding-author conference manuscript prepared for submission:
+- First- and corresponding-author conference paper submitted to DAE SNP 2026 on 8 September 2026:
   *Angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector*
 
 - Public reproducibility package:

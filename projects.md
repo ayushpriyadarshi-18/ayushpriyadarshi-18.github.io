@@ -19,7 +19,7 @@ This page collects selected research software, instrumentation, embedded systems
 
 A Python package and command-line tool for calculating angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector. I developed the mathematical implementation, ROOT analysis, coefficient-based calculation, numerical cross-checks, structured outputs, tests, documentation, and citation metadata.
 
-The package reproduces the results of my conference-paper manuscript prepared for submission to the DAE Symposium on Nuclear Physics 2026. It is the public annular-method stage that precedes our separate ongoing application to the near-4π soccer-ball detector.
+The package reproduces the results of my conference paper submitted to the DAE Symposium on Nuclear Physics 2026 on 8 September 2026. It is the public annular-method stage that precedes our separate ongoing application to the near-4π soccer-ball detector.
 
 **Skills:** Python, ROOT, Geant4 analysis, numerical integration, detector physics, gamma spectroscopy, scientific software testing, reproducible research
 
