@@ -55,21 +55,32 @@ This pipeline was developed to automate that workflow from simulation configurat
 - Automated Geant4 macro generation
 - Batch execution of simulation campaigns
 - ROOT-file validation and deposited-energy extraction
+- Per-event angular recording in ROOT outputs using `CosTheta` (cosθ) and `Phi` (azimuth in radians), alongside deposited energy for angle-resolved response analysis
 - Spectrum generation from `EdepCrystal_keV`
 - Photopeak, sum-peak, and total non-zero count extraction
 - CSV/table generation for comparison studies
 - Reproducible output organisation
 - Reference outputs for testing and demonstration
 
+My extended research version also includes:
+
+- Recording the first emitted gamma-ray direction, with `Theta_deg` and `Phi_deg` fields for polar and azimuthal angles in degrees
+- Custom radioactive-source models programmed directly from nuclear decay schemes, including emission probabilities, characteristic gamma rays, and back-to-back 511-keV annihilation photons for Na-22, O-14, and Sc-44
+
+These research extensions are maintained in my local working version. The public pipeline already includes `CosTheta` and `Phi` recording; the public Angular Factors Calculator provides the annular angular-factor analysis.
+
 ---
 
 ## Supported Detector Geometries
 
-The pipeline currently supports three detector configurations:
+The public pipeline supports these detector configurations:
 
 - Solid cylindrical scintillation detector geometry
 - Hollow annular detector geometry
+- Layered hollow cylindrical detector geometry, including aluminium housing and air gaps
 - Near-4π soccer-ball-style modular detector geometry
+
+My extended research version also implements Byun's eight-block NaI(Tl) reference geometry for reproducing the published angular-factor calculation.
 
 These geometries allow detector response to be compared under different angular-coverage and source-placement conditions.
 
@@ -98,7 +109,7 @@ A typical simulation campaign follows this structure:
 4. Validate ROOT output files.
 5. Extract deposited-energy data from the event tree.
 6. Generate deposited-energy spectra.
-7. Extract photopeak, sum-peak, and total non-zero deposited-energy counts.
+7. Extract photopeak, sum-peak, and total non-zero deposited-energy counts; analyse `CosTheta` and `Phi` alongside deposited energy to build angular response distributions. The extended research version also records `Theta_deg` and `Phi_deg` for angular-factor studies.
 8. Export final results as plots and comparison tables.
 
 ---
@@ -123,5 +134,6 @@ These unpublished extensions and research outputs are intentionally excluded fro
 
 - [GitHub Repository](https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline)
 - [Angular Factors Calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
+- [Workflow](#simulation-and-analysis-workflow)
 - [Research Page](research.md)
 - [Publications Page](publications.md)

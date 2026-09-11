@@ -119,7 +119,7 @@ The research workflow connects the following stages:
 4. Validate ROOT output files.
 5. Extract deposited-energy information from the event tree.
 6. Generate deposited-energy spectra.
-7. Extract photopeak, sum-peak, and total non-zero deposited-energy counts.
+7. Extract photopeak, sum-peak, and total non-zero deposited-energy counts; analyse the ROOT angular fields `CosTheta` (cosθ) and `Phi` (azimuth in radians), together with `Theta_deg` and `Phi_deg` in the extended research version, to build angle-resolved response distributions for angular-factor calculations.
 8. Export final plots and comparison tables.
 
 This approach makes the simulation-analysis chain more traceable and easier to extend across new detector materials, geometries, and source cases.

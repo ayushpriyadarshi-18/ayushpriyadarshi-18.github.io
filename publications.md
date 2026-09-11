@@ -33,6 +33,8 @@ This manuscript presents a full-interval, angle-resolved calculation of annihila
 **Venue:** IEEE Nuclear Science Symposium 2026  
 **Status:** Accepted for poster presentation  
 
+**Related recognition:** Selected recipient of the **2026 Paul Phelps Continuing Education Grant**, recognising promise in radiation instrumentation and supporting participation in IEEE NSS/MIC/RTSD 2026 short courses.
+
 This paper presents a compact Geant4–Python simulation-analysis tool for reproducible scintillation detector response studies. The tool connects a configurable Geant4 C++ simulation backend with Python automation for macro generation, simulation execution, ROOT-file validation, deposited-energy spectrum generation, count extraction, and summary table generation.
 
 The workflow is demonstrated using Cs-137 simulations across solid cylindrical, hollow cylindrical, and near-4π soccerball-style detector geometries. High-statistics validation runs on the PARAMGanga supercomputing facility demonstrate that the same workflow can be extended toward larger detector-response simulation campaigns.
