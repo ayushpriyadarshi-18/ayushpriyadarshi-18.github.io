@@ -132,8 +132,7 @@ These unpublished extensions and research outputs are intentionally excluded fro
 
 ## Links
 
-- [GitHub Repository](https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline)
+- [Workflow Repository](https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline)
 - [Angular Factors Calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
-- [Workflow](#simulation-and-analysis-workflow)
 - [Research Page](research.md)
 - [Publications Page](publications.md)
