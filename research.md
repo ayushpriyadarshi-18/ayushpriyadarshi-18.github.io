@@ -94,7 +94,9 @@ The simulation backend supports multiple detector geometries:
 
 - Solid cylindrical scintillation detectors
 - Hollow annular detector geometries
+- Layered hollow cylindrical detector geometry, including aluminium housing and air gaps
 - Custom near-4π soccer-ball-style detector geometry
+- Byun's eight-block NaI(Tl) reference geometry, implemented in my extended research version
 
 Implemented scintillator materials include:
 
