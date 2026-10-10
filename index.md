@@ -17,15 +17,15 @@ My current research develops angle-resolved annihilation-photon correlation fact
 
 I led an annular NaI(Tl) detector study that establishes the angular factors required before applying our correction formalism to a more complex near-4π array. I corrected and extended an earlier unpublished derivation, performed the angle-resolved Geant4 analysis, developed the public reproducibility package, validated the calculation, prepared the figures, and wrote the complete manuscript.
 
-The conference paper was submitted to the DAE Symposium on Nuclear Physics 2026 on 8 September 2026. I am its first and corresponding author.
+The conference paper was accepted for poster presentation at the DAE Symposium on Nuclear Physics, 7–11 December 2026. I am its first and corresponding author.
 
 [View the reproducibility package](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
 
 ### Coincidence-Summing Corrections for β⁺ Emitters
 
-I am working with Prof. Anil Kumar Gourishetty on geometry-dependent corrections for coincidence summing in Na-22, O-14, and Sc-44. I extended my thesis software to model custom decay sources, reconstruct a published eight-block reference detector, run high-statistics campaigns, and calculate the angular factors required for a near-4π soccer-ball NaI(Tl) detector array.
+I am working with Prof. Anil Kumar Gourishetty on geometry-dependent corrections for coincidence summing in Na-22, O-14, and Sc-44. I extended my thesis software to model custom decay sources, run high-statistics campaigns, and calculate the angular factors required for a near-4π soccer-ball NaI(Tl) detector array.
 
-The implementation was checked by reproducing published reference factors within 2.3%, and the soccer-ball detector model was benchmarked against published experimental measurements for the physical TIFR array. A peer-reviewed journal manuscript is planned, with confirmed second authorship.
+The soccer-ball detector model was benchmarked against published experimental measurements for the physical TIFR array. A peer-reviewed journal manuscript is planned, with confirmed second authorship.
 
 [Read about the research](research.md)
 
@@ -79,9 +79,9 @@ Designed and maintain a Raspberry Pi-based home server for self-hosted services,
 
 ## Publications
 
-**A. Priyadarshi**, R. Chauhan, A. Srivastava, and G. Anil Kumar,<br>
-“Angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector,”<br>
-submitted to the DAE Symposium on Nuclear Physics, 2026. Submission date: 8 September 2026.<br>
+**A. Priyadarshi**, R. Chauhan, A. Srivastava, and Anil Kumar Gourishetty,<br>
+“Estimation of angular correlation factors for annihilation photons in a NaI(Tl) annular detector,”<br>
+accepted for poster presentation at the DAE Symposium on Nuclear Physics, 7–11 December 2026.<br>
 Role: First and corresponding author.
 
 **A. Priyadarshi**, G. A. Kumar, K. Madhan, and V. Ranga,  

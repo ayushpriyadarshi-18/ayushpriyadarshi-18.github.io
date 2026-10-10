@@ -19,12 +19,12 @@ The central progression of my work is: **build a reusable simulation platform �
 
 ## Current Research
 
-### Angle-Resolved Annihilation-Photon Correlation Factors for an Annular NaI(Tl) Detector
+### Estimation of angular correlation factors for annihilation photons in a NaI(Tl) annular detector
 
 **Institution:** Department of Physics, Indian Institute of Technology Roorkee<br>
 **Supervisor:** Prof. Anil Kumar Gourishetty<br>
 **Role:** First and corresponding author; lead derivation, simulation analysis, software, validation, figures, and manuscript writing<br>
-**Status:** Submitted to the DAE Symposium on Nuclear Physics 2026 on 8 September 2026
+**Status:** Accepted for poster presentation at the DAE Symposium on Nuclear Physics, 7–11 December 2026
 
 This public study establishes the angular factors needed to apply the coincidence-summing correction formalism to an annular NaI(Tl) detector. It was a necessary methodological step before extending the same approach to the more complex soccer-ball detector.
 
@@ -55,8 +55,6 @@ When multiple photons from the same decay deposit energy within a detector's res
 Prof. Gourishetty is developing the coincidence-summing correction formalism. My contribution is the computational work required to apply and validate it:
 
 - Extended my Geant4–Python platform with new detector, source, campaign, and analysis capabilities.
-- Reconstructed the published eight-block near-4π NaI(Tl) reference detector of Byun et al.
-- Reproduced its published angular factors within a maximum relative difference of 2.3%.
 - Implemented custom Geant4 sources from nuclear decay schemes, including probabilistic gamma emission and back-to-back 511 keV annihilation photons.
 - Completed 10^8-event campaigns for Na-22, O-14, and Sc-44.
 - Calculated detector-specific angular factors for the 32-element TIFR soccer-ball NaI(Tl) array.
@@ -96,7 +94,6 @@ The simulation backend supports multiple detector geometries:
 - Hollow annular detector geometries
 - Layered hollow cylindrical detector geometry, including aluminium housing and air gaps
 - Custom near-4π soccer-ball-style detector geometry
-- Byun's eight-block NaI(Tl) reference geometry, implemented in my extended research version
 
 Implemented scintillator materials include:
 
@@ -144,8 +141,8 @@ This work has resulted in:
 - Research software repository:
   [Geant4 Detector Simulation Pipeline](https://github.com/ayushpriyadarshi-18/geant4-detector-simulation-pipeline)
 
-- First- and corresponding-author conference paper submitted to DAE SNP 2026 on 8 September 2026:
-  *Angle-resolved annihilation-photon correlation factors for an annular NaI(Tl) detector*
+- First- and corresponding-author conference paper accepted for poster presentation at DAE SNP 2026 (7–11 December):
+  *Estimation of angular correlation factors for annihilation photons in a NaI(Tl) annular detector*
 
 - Public reproducibility package:
   [Angular Factors Calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)

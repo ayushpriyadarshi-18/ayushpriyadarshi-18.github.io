@@ -14,7 +14,7 @@ My software work focuses on building reproducible tools for detector simulation,
 **Role:** Lead Developer and Maintainer<br>
 **Repository:** [angular-factors-calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
 
-Angular Factors Calculator is the public reproducibility package for my first- and corresponding-author annular-detector manuscript. It calculates annihilation-photon correlation factors from angle-resolved Geant4 ROOT data or supplied NaI(Tl) mass coefficients.
+Angular Factors Calculator is the public reproducibility package for my first- and corresponding-author annular-detector paper, accepted for poster presentation at the DAE Symposium on Nuclear Physics, 7–11 December 2026. It calculates annihilation-photon correlation factors from angle-resolved Geant4 ROOT data or supplied NaI(Tl) mass coefficients.
 
 The package provides:
 
@@ -80,8 +80,6 @@ The public pipeline supports these detector configurations:
 - Layered hollow cylindrical detector geometry, including aluminium housing and air gaps
 - Near-4π soccer-ball-style modular detector geometry
 
-My extended research version also implements Byun's eight-block NaI(Tl) reference geometry for reproducing the published angular-factor calculation.
-
 These geometries allow detector response to be compared under different angular-coverage and source-placement conditions.
 
 ---
@@ -124,7 +122,7 @@ It is also the software basis for my first-author conference paper accepted for 
 
 *A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors*
 
-After the thesis, I extended a private working copy of the platform to reconstruct the published Byun eight-block detector, implement custom Na-22, O-14, and Sc-44 source models from nuclear decay schemes, execute 10^8-event campaigns, and calculate geometry-dependent angular factors for a near-4π NaI(Tl) soccer-ball array.
+After the thesis, I extended a private working copy of the platform to implement custom Na-22, O-14, and Sc-44 source models from nuclear decay schemes, execute 10^8-event campaigns, and calculate geometry-dependent angular factors for a near-4π NaI(Tl) soccer-ball array.
 
 These unpublished extensions and research outputs are intentionally excluded from the public repository pending manuscript development and supervisor approval. The public repository remains the stable, reproducible version of the thesis software.
 
