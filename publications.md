@@ -25,13 +25,12 @@ This manuscript presents a full-interval, angle-resolved calculation of annihila
 
 ---
 
-## Conference Presentations
-
 ### A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors
 
-**Authors:** Ayush Priyadarshi, G. Anil Kumar, Kavish Madhan, and Virender Ranga  
-**Venue:** IEEE Nuclear Science Symposium 2026  
-**Status:** Accepted for poster presentation  
+**Authors:** Ayush Priyadarshi, G. Anil Kumar, Kavish Madhan, and Virender Ranga<br>
+**Venue:** IEEE Nuclear Science Symposium 2026<br>
+**Status:** Accepted for poster presentation<br>
+**My role:** First and corresponding author
 
 **Related recognition:** Selected recipient of the **2026 Paul Phelps Continuing Education Grant**, recognising promise in radiation instrumentation and supporting participation in IEEE NSS/MIC/RTSD 2026 short courses.
 

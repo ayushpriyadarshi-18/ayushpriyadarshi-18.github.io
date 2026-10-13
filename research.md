@@ -147,7 +147,7 @@ This work has resulted in:
 - Public reproducibility package:
   [Angular Factors Calculator](https://github.com/ayushpriyadarshi-18/angular-factors-calculator)
 
-- First-author conference presentation:
+- First- and corresponding-author conference paper:
   *A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors*<br>
   Accepted for poster presentation at IEEE Nuclear Science Symposium 2026.
 

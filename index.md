@@ -81,13 +81,15 @@ Designed and maintain a Raspberry Pi-based home server for self-hosted services,
 
 **A. Priyadarshi**, R. Chauhan, A. Srivastava, and Anil Kumar Gourishetty,<br>
 “Estimation of angular correlation factors for annihilation photons in a NaI(Tl) annular detector,”<br>
-accepted for poster presentation at the DAE Symposium on Nuclear Physics, 7–11 December 2026.<br>
-Role: First and corresponding author.
+**Venue:** DAE Symposium on Nuclear Physics, 7–11 December 2026<br>
+**Status:** Accepted for poster presentation<br>
+**Role:** First and corresponding author.
 
 **A. Priyadarshi**, G. A. Kumar, K. Madhan, and V. Ranga,  
 “A Python-based Tool for Automated Geant4 Simulations of Scintillation Detectors,”  
-accepted for poster presentation at IEEE Nuclear Science Symposium, 2026.  
-Status: Accepted for poster presentation.
+**Venue:** IEEE Nuclear Science Symposium, 2026<br>
+**Status:** Accepted for poster presentation<br>
+**Role:** First and corresponding author.
 
 ---
 
