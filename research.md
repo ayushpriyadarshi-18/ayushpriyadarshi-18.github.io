@@ -153,6 +153,18 @@ This work has resulted in:
 
 ---
 
+## Research Instrumentation Experience
+
+### Radio Telescope Control and Embedded Linux Support | 2023–2024
+
+**Role:** Assisting contributor, Physics and Astronomy Club, IIT Roorkee
+
+- Assisted with a custom Raspberry Pi image, boot configuration, networking, and hardware-control integration for the student-led telescope project.
+- Decompiled and recompiled a Wi-Fi driver to enable a module that initially did not work with the Raspberry Pi.
+- Interfaced motors and sensors, including magnetic sensors and accelerometers, with the Raspberry Pi-based telescope control system.
+
+---
+
 ## Broader Direction
 
 My broader research direction is to develop computational tools, simulation workflows, and instrumentation-support software for experimental physics. I am interested in applying these skills to detector physics, radiation detection, optical simulations, astrophysical instrumentation, and high-performance scientific computing.

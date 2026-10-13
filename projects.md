@@ -58,8 +58,8 @@ Key work included:
 - Assisting in the development of a custom Raspberry Pi image for the telescope system
 - Modifying Raspberry Pi boot configuration for reliable startup under lower-voltage portable power conditions
 - Enabling networking over the power/data port for a single-cable portable Linux setup
-- Building support for an initially unsupported Wi-Fi module
-- Assisting with hardware-control integration for telescope operation
+- Decompiled and recompiled a Wi-Fi driver to enable a module that initially did not work with the Raspberry Pi.
+- Interfaced motors and sensors, including magnetic sensors and accelerometers, with the Raspberry Pi-based telescope control system.
 
 **Skills:** Raspberry Pi, embedded Linux, networking, hardware interfacing, scientific instrumentation
 
