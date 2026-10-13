@@ -67,7 +67,7 @@ The project supports solid cylindrical, hollow annular, and near-4π soccer-ball
 ## Selected Projects
 
 **Radio Telescope Control and Embedded Linux Support**  
-Contributed to Raspberry Pi-based embedded Linux and hardware-control support for a student-led radio telescope project under the Physics and Astronomy Club, IIT Roorkee, including Wi-Fi driver decompilation/recompilation and interfacing motors, magnetic sensors, and accelerometers.
+Contributed to Raspberry Pi-based embedded Linux and hardware-control support for a student-led radio telescope project under the Physics and Astronomy Club, IIT Roorkee, including modifying and rebuilding a Wi-Fi driver for Raspberry Pi compatibility and interfacing motors, magnetic sensors, and accelerometers.
 
 **WiFi IP Mouse**  
 Built a Raspberry Pi-based WiFi IP mouse system during the Syntax Error Hackathon organised by SDS Labs, IIT Roorkee. Awarded First Prize.

@@ -160,7 +160,7 @@ This work has resulted in:
 **Role:** Assisting contributor, Physics and Astronomy Club, IIT Roorkee
 
 - Assisted with a custom Raspberry Pi image, boot configuration, networking, and hardware-control integration for the student-led telescope project.
-- Decompiled and recompiled a Wi-Fi driver to enable a module that initially did not work with the Raspberry Pi.
+- Modified and rebuilt a Wi-Fi driver to enable compatibility with the Raspberry Pi.
 - Interfaced motors and sensors, including magnetic sensors and accelerometers, with the Raspberry Pi-based telescope control system.
 
 ---
